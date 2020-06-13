@@ -13,3 +13,7 @@
     display: flex;
     justify-content: center;
 }
+
+p {
+    color: #7e8c9a;
+}
