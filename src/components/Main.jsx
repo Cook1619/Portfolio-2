@@ -10,6 +10,9 @@ const Main = () => {
       <div className="second-container">
         <h2>I'm a FullStack Web Developer</h2>
       </div>
+      <div className="third-container">
+        <p>I love creating web applications to solve problems and just for fun</p>
+      </div>
     </div>
   );
 };
