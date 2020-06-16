@@ -32,9 +32,14 @@ const Main = () => {
           I love creating web applications to solve problems and just for fun
         </p>
       </motion.div>
-      <div className="main-img">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 3, ease: "easeIn" }}
+        className="main-img"
+      >
         <img src={img} alt="Matt Cook" />
-      </div>
+      </motion.div>
       <div className="main-footer">
         <hr className="main-hr" />
       </div>

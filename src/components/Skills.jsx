@@ -7,6 +7,7 @@ const Skills = () => {
       <div className="skills-container">
         <h1>Skills</h1>
       </div>
+      <hr className="skills-hr"/>
     </div>
   );
 };
