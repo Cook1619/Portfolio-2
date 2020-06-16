@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/main.css";
 import { motion } from "framer-motion";
-import img from './img/github_pic.jpeg'
+import img from "./img/github_pic.jpeg";
 
 const Main = () => {
   return (
@@ -10,7 +10,7 @@ const Main = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, ease: "easeIn" }}
-        className="main-container"
+        className="main-heading"
       >
         <p>Hello, I'm Mathew Cook</p>
       </motion.div>
@@ -18,7 +18,7 @@ const Main = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 2, ease: "easeIn" }}
-        className="second-container"
+        className="main-title"
       >
         <h2>I'm a FullStack Web Developer</h2>
       </motion.div>
@@ -26,14 +26,18 @@ const Main = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 3, ease: "easeIn" }}
-        className="third-container"
+        className="main-title-description"
       >
         <p>
           I love creating web applications to solve problems and just for fun
         </p>
       </motion.div>
-      <img src={img} alt="Matt Cook"/>
-      <hr className="main-bottom" />
+      <div className="main-img">
+        <img src={img} alt="Matt Cook" />
+      </div>
+      <div className="main-footer">
+        <hr className="main-hr" />
+      </div>
     </div>
   );
 };
