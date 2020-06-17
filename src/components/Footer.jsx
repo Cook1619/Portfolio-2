@@ -1,7 +1,6 @@
 import React from "react";
 import "./styles/footer.css";
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 const Footer = () => {
   let newdate = new Date();
@@ -17,9 +16,7 @@ const Footer = () => {
         <p>© Mathew Cook {date}</p>
       </div>
       <div>
-        <FontAwesomeIcon icon={faHome} />
-        <FontAwesomeIcon icon={faHome} />
-        <FontAwesomeIcon icon={faHome} />
+
       </div>
     </div>
   );

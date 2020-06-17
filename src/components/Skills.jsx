@@ -3,7 +3,7 @@ import "./styles/skills.css";
 import reactimg from "./img/react.png";
 import jsimg from "./img/jsnode.png";
 import cssimg from "./img/css.png";
-import htmlsvg from './img/html.svg'
+import { FaBeer } from 'react-icons/fa';
 
 const Skills = () => {
   return (
@@ -22,7 +22,7 @@ const Skills = () => {
           <img src={cssimg} alt="css" />
         </div>
         <div className="skills-card">
-          <img src={htmlsvg} alt="css" />
+          <FaBeer />
         </div>
       </div>
       <hr className="skills-hr" />
