@@ -3,7 +3,8 @@ import "./styles/skills.css";
 import reactimg from "./img/react.png";
 import jsimg from "./img/jsnode.png";
 import cssimg from "./img/css.png";
-import { FaBeer } from 'react-icons/fa';
+import { FaReact } from "react-icons/fa";
+import { GrNode } from "react-icons/gr";
 
 const Skills = () => {
   return (
@@ -13,16 +14,20 @@ const Skills = () => {
       </div>
       <div className="skills-icons">
         <div className="skills-card">
-          <img src={reactimg} alt="react" />
+          <GrNode style={{ color: "#01d8ff", fontSize: "8rem" }} />
+          <p style={{ textAlign: "center" }}>React</p>
         </div>
         <div className="skills-card">
-          <img src={jsimg} alt="js" />
+          <FaReact style={{ color: "#01d8ff", fontSize: "8rem" }} />
+          <p style={{ textAlign: "center" }}>React</p>
         </div>
         <div className="skills-card">
-          <img src={cssimg} alt="css" />
+          <FaReact style={{ color: "#01d8ff", fontSize: "8rem" }} />
+          <p style={{ textAlign: "center" }}>React</p>
         </div>
         <div className="skills-card">
-          <FaBeer />
+          <FaReact style={{ color: "#01d8ff", fontSize: "8rem" }} />
+          <p style={{ textAlign: "center" }}>React</p>
         </div>
       </div>
       <hr className="skills-hr" />
