@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/projects.css";
-import jsNode from "./img/jsnode.png";
+import { FaReact } from "react-icons/fa";
+
 
 const Projects = () => {
   return (
@@ -16,7 +17,7 @@ const Projects = () => {
               <li>Bootstrap</li>
             </ul>
             <a href="#">github.com</a>
-            <img src={jsNode} alt="project-demo" />
+            <img src={<FaReact />} alt="project-demo" />
           </div>
           <div className="projects-cards">
             <h2>Title</h2>
@@ -26,7 +27,7 @@ const Projects = () => {
               <li>Bootstrap</li>
             </ul>
             <a href="#">github.com</a>
-            <img src={jsNode} alt="project-demo" />
+            <img src={<FaReact />} alt="project-demo" />
           </div>
           <div className="projects-cards">
             <h2>Title</h2>
@@ -36,7 +37,7 @@ const Projects = () => {
               <li>Bootstrap</li>
             </ul>
             <a href="#">github.com</a>
-            <img src={jsNode} alt="project-demo" />
+            <img src={<FaReact />} alt="project-demo" />
           </div>
           <div className="projects-cards">
             <h2>Title</h2>
@@ -46,7 +47,7 @@ const Projects = () => {
               <li>Bootstrap</li>
             </ul>
             <a href="#">github.com</a>
-            <img src={jsNode} alt="project-demo" />
+            <img src={<FaReact />} alt="project-demo" />
           </div>
         </div>
       </div>

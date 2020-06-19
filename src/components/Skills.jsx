@@ -1,8 +1,5 @@
 import React from "react";
 import "./styles/skills.css";
-import reactimg from "./img/react.png";
-import jsimg from "./img/jsnode.png";
-import cssimg from "./img/css.png";
 import { FaReact } from "react-icons/fa";
 import { GrNode } from "react-icons/gr";
 
