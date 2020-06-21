@@ -6,8 +6,8 @@ import { FaReact } from "react-icons/fa";
 const Projects = () => {
   return (
     <div>
-      <div className="projects-container">
-        <h1>Projects</h1>
+      <div className="py-10 max-w-3xl mx-40">
+        <h1 className="text-center">Projects</h1>
         <div className="projects-card-container">
           <div className="projects-cards">
             <h2>Title</h2>
