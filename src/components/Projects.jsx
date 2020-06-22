@@ -51,7 +51,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <hr className="projects-hr" />
+      <hr className="main-hr" />
     </div>
   );
 };

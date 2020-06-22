@@ -38,7 +38,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <hr className="nav-bottom" />
+      <hr className="main-hr" />
     </div>
   );
 };

@@ -40,7 +40,7 @@ const Main = () => {
           <img className="w-48 h-48" src={img} alt="Matt Cook" />
         </motion.div>
       </div>
-      <hr className="projects-hr" />
+      <hr className="main-hr" />
     </div>
   );
 };
