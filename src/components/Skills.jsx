@@ -1,33 +1,46 @@
 import React from "react";
-import "./styles/skills.css";
 import { FaReact } from "react-icons/fa";
 import { GrNode } from "react-icons/gr";
 
 const Skills = () => {
   return (
     <div>
-      <div className="skills-container">
+      <div className="flex justify-center text-4xl pt-8 pb-8">
         <h1>Skills</h1>
       </div>
-      <div className="skills-icons">
-        <div className="skills-card">
+      <div className="grid grid-cols-5 gap-16 p-20">
+        <div className="pl-2 bg-gray-400">
           <GrNode style={{ color: "#01d8ff", fontSize: "8rem" }} />
-          <p style={{ textAlign: "center" }}>React</p>
         </div>
-        <div className="skills-card">
+        <div className="p-2 bg-gray-400">
           <FaReact style={{ color: "#01d8ff", fontSize: "8rem" }} />
-          <p style={{ textAlign: "center" }}>React</p>
         </div>
-        <div className="skills-card">
+        <div className="p-2 bg-gray-400">
           <FaReact style={{ color: "#01d8ff", fontSize: "8rem" }} />
-          <p style={{ textAlign: "center" }}>React</p>
         </div>
-        <div className="skills-card">
+        <div className="p-2 bg-gray-400">
+          <GrNode style={{ color: "#01d8ff", fontSize: "8rem" }} />
+        </div>
+        <div className="p-2 bg-gray-400">
           <FaReact style={{ color: "#01d8ff", fontSize: "8rem" }} />
-          <p style={{ textAlign: "center" }}>React</p>
+        </div>
+        <div className="p-2 bg-gray-400">
+          <FaReact style={{ color: "#01d8ff", fontSize: "8rem" }} />
+        </div>
+        <div className="p-2 bg-gray-400">
+          <FaReact style={{ color: "#01d8ff", fontSize: "8rem" }} />
+        </div>
+        <div className="p-2 bg-gray-400">
+          <GrNode style={{ color: "#01d8ff", fontSize: "8rem" }} />
+        </div>
+        <div className="p-2 bg-gray-400">
+          <FaReact style={{ color: "#01d8ff", fontSize: "8rem" }} />
+        </div>
+        <div className="p-2 bg-gray-400">
+          <FaReact style={{ color: "#01d8ff", fontSize: "8rem" }} />
         </div>
       </div>
-      <hr className="skills-hr" />
+      <hr className="main-hr" />
     </div>
   );
 };
