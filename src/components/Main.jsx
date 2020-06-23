@@ -1,5 +1,4 @@
 import React from "react";
-import "./styles/main.css";
 import { motion } from "framer-motion";
 import img from "./img/github_pic.jpeg";
 
