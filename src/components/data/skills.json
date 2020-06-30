@@ -13,5 +13,6 @@
     { "icon": "graphql", "name": "GraphQL" },
     { "icon": "postgres", "name": "PostgreSQL" },
     { "icon": "python", "name": "Python" },
-    { "icon": "java", "name": "Java" }
+    { "icon": "java", "name": "Java" },
+    { "icon": "git", "name": "Git" }
   ]

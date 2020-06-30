@@ -1,4 +1,7 @@
 import React from 'react'
+import {
+    FiGithub,
+  } from "react-icons/fi";
 
 const VueIcon = () => (
     <svg
@@ -619,6 +622,8 @@ const VueIcon = () => (
   
   export default function Icon({ name }) {
     switch (name.toLowerCase()) {
+      case "github":
+        return <FiGithub />;
       case "vue":
         return <VueIcon />;
       case "angular":
