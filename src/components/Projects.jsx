@@ -7,12 +7,12 @@ const Projects = () => {
     <div>
       <main className="px-4">
         <section className="max-w-4xl py-12 mx-auto text-center md:py-16">
-          <h1 className="text-5xl font-extrabold leading-tight md:text-6xl lg:text-7xl">
+          <h1 className="text-5xl font-extrabold leading-tight md:text-6xl lg:text-7xl text-white">
             Projects
           </h1>
         </section>
         <section className="grid max-w-3xl grid-flow-row grid-cols-1 gap-4 py-8 mx-auto md:gap-8 md:grid-cols-2">
-          <div className="p-8 bg-gray-900 rounded-lg shadow-md light:bg-gray-100">
+          <div className="p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100">
             <h3 className="text-lg font-extrabold">Test1</h3>
             <div className="flex mt-4">
               <a
@@ -26,7 +26,7 @@ const Projects = () => {
               </a>
               <a
                 className="flex items-center transition duration-200 ease-in-out opacity-75 hover:opacity-100"
-                href="https://github.com/kyrelldixon/write-more"
+                href="#"
               >
                 <span className="mr-1">
                   <Icon name="github" />
@@ -35,7 +35,7 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          <div className="p-8 bg-gray-900 rounded-lg shadow-md light:bg-gray-100">
+          <div className="p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100">
             <h3 className="text-lg font-extrabold">Test 2</h3>
             <div className="flex mt-4">
               <a
@@ -60,7 +60,7 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          <div className="p-8 bg-gray-900 rounded-lg shadow-md light:bg-gray-100">
+          <div className="p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100">
             <h3 className="text-lg font-extrabold">Test 3</h3>
             <div className="flex mt-4">
               <a
@@ -85,12 +85,12 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          <div className="p-8 bg-gray-900 rounded-lg shadow-md light:bg-gray-100">
+          <div className="p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100">
             <h3 className="text-lg font-extrabold">Recipe Site Skeleton</h3>
             <div className="flex mt-4">
               <a
                 className="flex items-center mr-8 transition duration-200 ease-in-out opacity-75 hover:opacity-100"
-                href="https://recipe-skeleton.vercel.app/"
+                href="#"
                 target="_blank"
               >
                 <span className="mr-1">
@@ -100,7 +100,7 @@ const Projects = () => {
               </a>
               <a
                 className="flex items-center transition duration-200 ease-in-out opacity-75 hover:opacity-100"
-                href="https://github.com/kyrelldixon/recipe"
+                href="#"
                 target="_blank"
               >
                 <span className="mr-1">
@@ -110,7 +110,7 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          <div className="p-8 bg-gray-900 rounded-lg shadow-md light:bg-gray-100">
+          <div className="p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100">
             <h3 className="text-lg font-extrabold">Test 4</h3>
             <div className="flex mt-4">
               <a
@@ -135,7 +135,7 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          <div className="p-8 bg-gray-900 rounded-lg shadow-md light:bg-gray-100">
+          <div className="p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100">
             <h3 className="text-lg font-extrabold">Test 5</h3>
             <div className="flex mt-4">
               <a
