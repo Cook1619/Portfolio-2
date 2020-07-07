@@ -13,9 +13,9 @@ const Projects = () => {
         </section>
         <section className="grid max-w-3xl grid-flow-row grid-cols-1 gap-4 py-8 mx-auto md:gap-8 md:grid-cols-2">
           <div className="p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100">
-            <h3 className="text-lg font-extrabold">Test1</h3>
+            <h3 className="text-lg font-extrabold">Airbnb Mock-up</h3>
             <div className="flex mt-4">
-              <a
+              {/* <a
                 className="flex items-center mr-8 transition duration-200 ease-in-out opacity-75 hover:opacity-100"
                 href="#"
               >
@@ -23,10 +23,12 @@ const Projects = () => {
                   <Icon name="external-link" />
                 </span>
                 Demo
-              </a>
+              </a> */}
               <a
                 className="flex items-center transition duration-200 ease-in-out opacity-75 hover:opacity-100"
-                href="#"
+                href="https://github.com/Cook1619/house-renting-app"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="mr-1">
                   <Icon name="github" />
@@ -36,9 +38,9 @@ const Projects = () => {
             </div>
           </div>
           <div className="p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100">
-            <h3 className="text-lg font-extrabold">Test 2</h3>
+            <h3 className="text-lg font-extrabold">Exercise Tracker</h3>
             <div className="flex mt-4">
-              <a
+              {/* <a
                 className="flex items-center mr-8 transition duration-200 ease-in-out opacity-75 hover:opacity-100"
                 href=""
                 target="_blank"
@@ -47,11 +49,12 @@ const Projects = () => {
                   <Icon name="external-link" />
                 </span>
                 Demo
-              </a>
+              </a> */}
               <a
                 className="flex items-center transition duration-200 ease-in-out opacity-75 hover:opacity-100"
-                href=""
+                href="https://github.com/Cook1619/mern-exercise-tracker"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="mr-1">
                   <Icon name="github" />
@@ -61,12 +64,13 @@ const Projects = () => {
             </div>
           </div>
           <div className="p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100">
-            <h3 className="text-lg font-extrabold">Test 3</h3>
+            <h3 className="text-lg font-extrabold">Quiz App</h3>
             <div className="flex mt-4">
               <a
                 className="flex items-center mr-8 transition duration-200 ease-in-out opacity-75 hover:opacity-100"
-                href=""
+                href="https://vibrant-engelbart-86c039.netlify.app/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="mr-1">
                   <Icon name="external-link" />
@@ -75,8 +79,9 @@ const Projects = () => {
               </a>
               <a
                 className="flex items-center transition duration-200 ease-in-out opacity-75 hover:opacity-100"
-                href=""
+                href="https://github.com/Cook1619/react-quiz"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="mr-1">
                   <Icon name="github" />
@@ -86,12 +91,13 @@ const Projects = () => {
             </div>
           </div>
           <div className="p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100">
-            <h3 className="text-lg font-extrabold">Recipe Site Skeleton</h3>
+            <h3 className="text-lg font-extrabold">Bored At Home</h3>
             <div className="flex mt-4">
               <a
                 className="flex items-center mr-8 transition duration-200 ease-in-out opacity-75 hover:opacity-100"
-                href="#"
+                href="https://mystifying-kowalevski-eab105.netlify.app/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="mr-1">
                   <Icon name="external-link" />
@@ -100,8 +106,9 @@ const Projects = () => {
               </a>
               <a
                 className="flex items-center transition duration-200 ease-in-out opacity-75 hover:opacity-100"
-                href="#"
+                href="https://github.com/Cook1619/indecison-app"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="mr-1">
                   <Icon name="github" />
@@ -111,12 +118,13 @@ const Projects = () => {
             </div>
           </div>
           <div className="p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100">
-            <h3 className="text-lg font-extrabold">Test 4</h3>
+            <h3 className="text-lg font-extrabold">Robots API</h3>
             <div className="flex mt-4">
               <a
                 className="flex items-center mr-8 transition duration-200 ease-in-out opacity-75 hover:opacity-100"
-                href=""
+                href="https://cook1619.github.io/Robot-API/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="mr-1">
                   <Icon name="external-link" />
@@ -125,8 +133,9 @@ const Projects = () => {
               </a>
               <a
                 className="flex items-center transition duration-200 ease-in-out opacity-75 hover:opacity-100"
-                href=""
+                href="https://github.com/Cook1619/Robot-API"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="mr-1">
                   <Icon name="github" />
@@ -136,12 +145,24 @@ const Projects = () => {
             </div>
           </div>
           <div className="p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100">
-            <h3 className="text-lg font-extrabold">Test 5</h3>
+            <h3 className="text-lg font-extrabold">Studio Ghibli API</h3>
             <div className="flex mt-4">
               <a
-                className="flex items-center transition duration-200 ease-in-out opacity-75 hover:opacity-100"
-                href=""
+                className="flex items-center mr-8 transition duration-200 ease-in-out opacity-75 hover:opacity-100"
+                href="https://cook1619.github.io/Studio-Ghibli-API/"
                 target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="mr-1">
+                  <Icon name="external-link" />
+                </span>
+                Demo
+              </a>
+              <a
+                className="flex items-center transition duration-200 ease-in-out opacity-75 hover:opacity-100"
+                href="https://github.com/Cook1619/Studio-Ghibli-API"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="mr-1">
                   <Icon name="github" />

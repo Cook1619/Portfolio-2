@@ -4,7 +4,7 @@ import skills from "./data/skills.json";
 
 const Skills = () => {
   return (
-    <div>
+    <div id="skills">
       <section className="py-16 md:py-20">
         <div className="flex justify-center text-5xl font-extrabold leading-tight md:text-6xl lg:text-7xl pt-8 pb-8 text-white">
           <h1>Skills</h1>

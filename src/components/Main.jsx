@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import img from "./img/github_pic.jpeg";
+import img from "./img/github_pic-1.png";
 
 const Main = () => {
   return (
@@ -34,7 +34,7 @@ const Main = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 4, ease: "easeIn" }}
-          className="row-span-4"
+          className="row-span-4 rounded-b-lg"
         >
           <img className="w-48 h-48" src={img} alt="Matt Cook" />
         </motion.div>
