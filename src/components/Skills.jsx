@@ -1,6 +1,4 @@
 import React from "react";
-import { FaReact } from "react-icons/fa";
-import { GrNode } from "react-icons/gr";
 import Icon from "./icons/Icon.js";
 import skills from "./data/skills.json";
 
@@ -15,7 +13,7 @@ const Skills = () => {
           {skills.map(({ icon, name }) => (
             <li
               key={icon}
-              className="flex flex-col items-center justify-center w-24 h-24 m-2 bg-gray-900 rounded-lg shadow"
+              className="flex flex-col items-center justify-center w-24 h-24 m-2 bg-grey-dark rounded-lg shadow"
             >
               <span className="inline-block mb-2 text-2xl">
                 <Icon name={icon} />

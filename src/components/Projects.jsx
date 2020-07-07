@@ -1,13 +1,11 @@
 import React from "react";
 import "./styles/projects.css";
-import { FaReact } from "react-icons/fa";
 import Icon from "./icons/Icon.js";
-
 
 const Projects = () => {
   return (
     <div>
-          <main className="px-4">
+      <main className="px-4">
         <section className="max-w-4xl py-12 mx-auto text-center md:py-16">
           <h1 className="text-5xl font-extrabold leading-tight md:text-6xl lg:text-7xl">
             Projects

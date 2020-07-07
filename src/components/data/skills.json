@@ -6,13 +6,12 @@
     { "icon": "html", "name": "HTML" },
     { "icon": "react", "name": "React" },
     { "icon": "nextjs", "name": "NextJs" },
-    { "icon": "vue", "name": "Vue" },
     { "icon": "tailwind", "name": "TailwindCSS" },
-    { "icon": "git", "name": "Git" },
+    { "icon": "redux", "name": "Redux" },
+    { "icon": "apollo", "name": "Apollo" },
+    { "icon": "jquery", "name": "Jquery" },
+    { "icon": "angular", "name": "Angular" },
     { "icon": "aws", "name": "AWS" },
     { "icon": "graphql", "name": "GraphQL" },
-    { "icon": "postgres", "name": "PostgreSQL" },
-    { "icon": "python", "name": "Python" },
-    { "icon": "java", "name": "Java" },
     { "icon": "git", "name": "Git" }
   ]
