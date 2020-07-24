@@ -38,21 +38,21 @@ const Projects = () => {
             </div>
           </div>
           <div className="p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100">
-            <h3 className="text-lg font-extrabold">Exercise Tracker</h3>
+            <h3 className="text-lg font-extrabold">Node Weather Application</h3>
             <div className="flex mt-4">
-              {/* <a
+              <a
                 className="flex items-center mr-8 transition duration-200 ease-in-out opacity-75 hover:opacity-100"
-                href=""
-                target="_blank"
+                href="https://cook-node-weather-app.herokuapp.com/"
+                target="noopener noreferrer"
               >
                 <span className="mr-1">
                   <Icon name="external-link" />
                 </span>
                 Demo
-              </a> */}
+              </a>
               <a
                 className="flex items-center transition duration-200 ease-in-out opacity-75 hover:opacity-100"
-                href="https://github.com/Cook1619/mern-exercise-tracker"
+                href="https://github.com/Cook1619/Node-weather-2"
                 target="_blank"
                 rel="noopener noreferrer"
               >
