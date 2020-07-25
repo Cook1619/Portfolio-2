@@ -171,6 +171,33 @@ const Projects = () => {
               </a>
             </div>
           </div>
+          <div className="p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100">
+            <h3 className="text-lg font-extrabold">Angular Password Generator</h3>
+            <div className="flex mt-4">
+              <a
+                className="flex items-center mr-8 transition duration-200 ease-in-out opacity-75 hover:opacity-100"
+                href="https://password-gen-red.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="mr-1">
+                  <Icon name="external-link" />
+                </span>
+                Demo
+              </a>
+              <a
+                className="flex items-center transition duration-200 ease-in-out opacity-75 hover:opacity-100"
+                href="https://github.com/Cook1619/NG-Password-Generator"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="mr-1">
+                  <Icon name="github" />
+                </span>
+                Source Code
+              </a>
+            </div>
+          </div>
         </section>
       </main>
       {/* <div className="py-10 max-w-3xl mx-40">
