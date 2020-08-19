@@ -28,7 +28,8 @@ const Main = () => {
           transition={{ duration: 3, ease: "easeIn" }}
           className="row-span-1 col-span-2 text-2xl text-gray-500"
         >
-          I like bringing relavant data to the users to help make informed business decisions
+          I like bringing relevant data to the users to help make informed
+          business decisions
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
