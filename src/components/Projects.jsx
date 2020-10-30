@@ -13,20 +13,20 @@ const Projects = () => {
         </section>
         <section className="grid max-w-3xl grid-flow-row grid-cols-1 gap-4 py-8 mx-auto md:gap-8 md:grid-cols-2">
           <div className="p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100">
-            <h3 className="text-lg font-extrabold">Airbnb Mock-up</h3>
+            <h3 className="text-lg font-extrabold">Trello Application</h3>
             <div className="flex mt-4">
-              {/* <a
+              <a
                 className="flex items-center mr-8 transition duration-200 ease-in-out opacity-75 hover:opacity-100"
-                href="#"
+                href="https://sharp-easley-2eebe7.netlify.app/"
               >
                 <span className="mr-1">
                   <Icon name="external-link" />
                 </span>
                 Demo
-              </a> */}
+              </a>
               <a
                 className="flex items-center transition duration-200 ease-in-out opacity-75 hover:opacity-100"
-                href="https://github.com/Cook1619/house-renting-app"
+                href="https://github.com/Cook1619/React-trello"
                 target="_blank"
                 rel="noopener noreferrer"
               >
