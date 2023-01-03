@@ -17,14 +17,6 @@ const Navbar = () => {
               Skills
             </a>
             <a
-              href="https://mcook.io/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block mt-4 lg:inline-block lg:mt-0 text-gray-500 hover:text-gray-100 mr-4 text-xl"
-            >
-              Blog
-            </a>
-            <a
               href="https://github.com/Cook1619"
               target="_blank"
               rel="noopener noreferrer"

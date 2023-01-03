@@ -89,6 +89,35 @@ const Projects = () => {
             </div>
           </div>
           <div className='p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100'>
+            <h3 className='text-lg font-extrabold'>
+              NextJS Weather Application
+            </h3>
+            <div className='flex mt-4'>
+              <a
+                className='flex items-center mr-8 transition duration-200 ease-in-out opacity-75 hover:opacity-100'
+                href='https://symphonious-pegasus-2420eb.netlify.app/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <span className='mr-1'>
+                  <Icon name='external-link' />
+                </span>
+                Demo
+              </a>
+              <a
+                className='flex items-center transition duration-200 ease-in-out opacity-75 hover:opacity-100'
+                href='https://github.com/Cook1619/react-toy-projects/tree/master/weather-appr'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <span className='mr-1'>
+                  <Icon name='github' />
+                </span>
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div className='p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100'>
             <h3 className='text-lg font-extrabold'>Quiz App</h3>
             <div className='flex mt-4'>
               <a
@@ -196,82 +225,8 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          <div className='p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100'>
-            <h3 className='text-lg font-extrabold'>
-              Angular Password Generator
-            </h3>
-            <div className='flex mt-4'>
-              <a
-                className='flex items-center mr-8 transition duration-200 ease-in-out opacity-75 hover:opacity-100'
-                href='https://password-gen-red.vercel.app/'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <span className='mr-1'>
-                  <Icon name='external-link' />
-                </span>
-                Demo
-              </a>
-              <a
-                className='flex items-center transition duration-200 ease-in-out opacity-75 hover:opacity-100'
-                href='https://github.com/Cook1619/NG-Password-Generator'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <span className='mr-1'>
-                  <Icon name='github' />
-                </span>
-                Source Code
-              </a>
-            </div>
-          </div>
         </section>
       </main>
-      {/* <div className="py-10 max-w-3xl mx-40">
-        <h1 className="text-center">Projects</h1>
-        <div className="projects-card-container">
-          <div className="projects-cards">
-            <h2>Title</h2>
-            <ul className="css-sucks">
-              <li>CSS</li>
-              <li>React</li>
-              <li>Bootstrap</li>
-            </ul>
-            <a href="#">github.com</a>
-            <img src={<FaReact />} alt="project-demo" />
-          </div>
-          <div className="projects-cards">
-            <h2>Title</h2>
-            <ul>
-              <li>CSS</li>
-              <li>React</li>
-              <li>Bootstrap</li>
-            </ul>
-            <a href="#">github.com</a>
-            <img src={<FaReact />} alt="project-demo" />
-          </div>
-          <div className="projects-cards">
-            <h2>Title</h2>
-            <ul>
-              <li>CSS</li>
-              <li>React</li>
-              <li>Bootstrap</li>
-            </ul>
-            <a href="#">github.com</a>
-            <img src={<FaReact />} alt="project-demo" />
-          </div>
-          <div className="projects-cards">
-            <h2>Title</h2>
-            <ul>
-              <li>CSS</li>
-              <li>React</li>
-              <li>Bootstrap</li>
-            </ul>
-            <a href="#">github.com</a>
-            <img src={<FaReact />} alt="project-demo" />
-          </div>
-        </div>
-      </div> */}
       <hr className='main-hr' />
     </div>
   );
