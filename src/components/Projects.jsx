@@ -15,7 +15,7 @@ const Projects = () => {
           <div className='p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100'>
             <h3 className='text-lg font-extrabold'>Youtube Clone</h3>
             <div className='flex mt-4'>
-              <a
+              {/* <a
                 className='flex items-center mr-8 transition duration-200 ease-in-out opacity-75 hover:opacity-100'
                 href='https://mcook-youtube-clone.herokuapp.com/'
               >
@@ -23,7 +23,7 @@ const Projects = () => {
                   <Icon name='external-link' />
                 </span>
                 Demo
-              </a>
+              </a> */}
               <a
                 className='flex items-center transition duration-200 ease-in-out opacity-75 hover:opacity-100'
                 href='https://github.com/Cook1619/youtube-clone'
@@ -65,7 +65,7 @@ const Projects = () => {
           <div className='p-8 bg-gray-800 rounded-lg shadow-md light:bg-gray-100'>
             <h3 className='text-lg font-extrabold'>Node Weather Application</h3>
             <div className='flex mt-4'>
-              <a
+              {/* <a
                 className='flex items-center mr-8 transition duration-200 ease-in-out opacity-75 hover:opacity-100'
                 href='https://cook-node-weather-app.herokuapp.com/'
                 target='noopener noreferrer'
@@ -74,7 +74,7 @@ const Projects = () => {
                   <Icon name='external-link' />
                 </span>
                 Demo
-              </a>
+              </a> */}
               <a
                 className='flex items-center transition duration-200 ease-in-out opacity-75 hover:opacity-100'
                 href='https://github.com/Cook1619/Node-weather-2'

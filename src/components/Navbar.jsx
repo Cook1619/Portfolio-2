@@ -20,9 +20,18 @@ const Navbar = () => {
               href="https://github.com/Cook1619"
               target="_blank"
               rel="noopener noreferrer"
-              className="block mt-4 lg:inline-block lg:mt-0 text-gray-500 hover:text-gray-100 text-xl"
+              className="block mt-4 lg:inline-block lg:mt-0 text-gray-500 hover:text-gray-100 mr-4 text-xl"
             >
               Github
+            </a>
+            <a
+              href="/mcook2023.pdf"
+              download
+              rel="noopener noreferrer"
+              target="_blank"
+              className="block mt-4 lg:inline-block lg:mt-0 text-gray-500 hover:text-gray-100 text-xl"
+            >
+              Resume
             </a>
           </div>
         </div>
