@@ -25,7 +25,7 @@ const Navbar = () => {
               Github
             </a>
             <a
-              href="/MC-2023.pdf"
+              href="/MC-2025.pdf"
               download
               rel="noopener noreferrer"
               target="_blank"
